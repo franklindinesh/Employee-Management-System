@@ -160,7 +160,7 @@ btnclear=Button(btn_frame,command=clear_Employee,text="clear details",width=15,f
 
 # 2.Table frame:
 tree_frame=Frame(dinesh,bg="#ecf0f1")
-tree_frame.place(x=0,y=480,width=1600,height=520)
+tree_frame.place(x=0,y=480,width=1400,height=300)
 
 style=ttk.Style()
 style.configure("mystyle.Treeview",font=("calibri",18),
@@ -188,7 +188,7 @@ tv.heading("6", text="Gender")
 tv.column("6",width=10)
 
 tv.heading("7", text="Contact")
-tv.column("7",width=6)
+tv.column("7",width=10)
 
 tv.heading("8", text="Address")
 
